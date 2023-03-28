@@ -12,11 +12,11 @@ Demonstration of how to instrument an application that uses RabbitMQ technology.
 
 - Export the following environment variables:
 
-  SPLUNK_REALM=<REALM>
-  SPLUNK_ACCESS_TOKEN=<TOKEN>
-  OTEL_RESOURCE_ATTRIBUTES="deployment.environment=<name of environment>"
-  OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4317"
-  OTEL_SERVICE_NAME="<name of service>"
+  - SPLUNK_REALM=<REALM>
+  - SPLUNK_ACCESS_TOKEN=<TOKEN>
+  - OTEL_RESOURCE_ATTRIBUTES="deployment.environment=<name of environment>"
+  - OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4317"
+  - OTEL_SERVICE_NAME="<name of service>"
 
 - Execute the following scripts:
 
